@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Entrega | Computer House</title>
+    <link rel="stylesheet" href="./assets/css/global-styles.css" />
+    <link rel="stylesheet" href="./assets/css/delivery.css" />
+    <link rel="stylesheet" href="./assets/css/steps.css" />
+  </head>
+  <body class="delivery">
+    <header></header>
+    <main class="main">
+      <section class="steps">
+        <span class="step success"
+          ><img src="./assets/images/person-icon.png" alt=""
+        /></span>
+        <span class="path success"></span>
+        <span class="step current"
+          ><img src="./assets/images/truck-icon.png" alt=""
+        /></span>
+        <span class="path"></span>
+        <span class="step"
+          ><img src="./assets/images/money-icon.png" alt=""
+        /></span>
+        <span class="path"></span>
+        <span class="step"
+          ><img src="./assets/images/finish.png" alt=""
+        /></span>
+      </section>
+      <section class="delivery-form-section">
+        <h1 class="title">Entega</h1>
+        <form class="form" action="payment.html">
+          <div class="input-group">
+            <div class="field">
+              <label for="input-cep" class="label">CEP</label>
+              <input
+                type="number"
+                name="input-cep"
+                id="input-cep"
+                class="input"
+                placeholder="Digite seu cep"
+                required
+              />
+            </div>
+            <div class="field">
+              <label for="input-state" class="label">Estado</label>
+              <input
+                type="text"
+                name="input-state"
+                id="input-state"
+                class="input"
+                placeholder="Digite o Estado em que você mora"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="input-group">
+            <div class="field">
+              <label for="input-city" class="label">Cidade</label>
+              <input
+                type="text"
+                name="input-city"
+                id="input-city"
+                class="input"
+                placeholder="Digite a cidade em que você mora"
+                required
+              />
+            </div>
+            <div class="field">
+              <label for="input-neighborhood" class="label">Bairro</label>
+              <input
+                type="text"
+                name="input-neighborhood"
+                id="input-neighborhood"
+                class="input"
+                placeholder="Digite o bairro em que você mora"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="input-group">
+            <div class="field">
+              <label for="input-street" class="label">Rua</label>
+              <input
+                type="text"
+                name="input-street"
+                id="input-street"
+                class="input"
+                placeholder="Digite a rua em que você mora"
+                required
+              />
+            </div>
+            <div class="field">
+              <label for="input-house-number" class="label"
+                >Número da residência</label
+              >
+              <input
+                type="number"
+                name="input-house-number"
+                id="input-house-number"
+                class="input"
+                placeholder="999"
+                required
+              />
+            </div>
+          </div>
+          <div class="buttons">
+            <a href="identification.html" class="cancel"> Voltar </a>
+            <button type="submit" class="continue">Continuar</button>
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>
