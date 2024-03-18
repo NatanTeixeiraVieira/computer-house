@@ -1,0 +1,98 @@
+.main {
+  background-color: #fdfdfd;
+}
+
+.identification .main {
+  padding: 2rem;
+}
+
+.identification .main .identification-form-section {
+  width: 70%;
+  margin: 0 auto;
+  border-radius: 10px;
+  padding: 4rem;
+}
+
+.identification .main .identification-form-section .title {
+  margin-bottom: 2rem;
+}
+
+.identification .main .identification-form-section .input-group {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 1rem;
+}
+
+.identification .main .identification-form-section .field {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.identification .main .identification-form-section .field .input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border-radius: 5px;
+  border: 1px solid #222222;
+  font-size: 1rem;
+}
+
+.identification .main .identification-form-section .buttons {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.identification .main .identification-form-section .buttons button,
+.identification .main .identification-form-section .buttons a {
+  text-align: center;
+  width: 16rem;
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  color: #ededed;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.identification .main .identification-form-section .buttons .cancel {
+  background-color: #d71e1e;
+}
+
+.identification .main .identification-form-section .buttons .continue {
+  background-color: #0ec70e;
+}
+
+@media screen and (max-width: 1020px) {
+  .identification .main .identification-form-section {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .identification .main .identification-form-section .input-group {
+    flex-direction: column;
+  }
+
+  .identification .main .identification-form-section .field {
+    width: 100%;
+  }
+
+  .identification .main .identification-form-section .buttons button,
+  .identification .main .identification-form-section .buttons a {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .identification .main .identification-form-section {
+    padding: 0;
+  }
+
+  .identification .main .identification-form-section .buttons {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+}

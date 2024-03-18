@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Identificação | Computer Home</title>
+    <link rel="stylesheet" href="./assets/css/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/global-styles.css" />
+    <link rel="stylesheet" href="./assets/css/identification.css" />
+    <link rel="stylesheet" href="./assets/css/steps.css" />
+  </head>
+  <body class="identification">
+    <header></header>
+    <main class="main">
+      <section class="steps">
+        <span class="step current"
+          ><img src="./assets/images/person-icon.png" alt=""
+        /></span>
+        <span class="path"></span>
+        <span class="step"
+          ><img src="./assets/images/truck-icon.png" alt=""
+        /></span>
+        <span class="path"></span>
+        <span class="step"
+          ><img src="./assets/images/money-icon.png" alt=""
+        /></span>
+        <span class="path"></span>
+        <span class="step"
+          ><img src="./assets/images/finish.png" alt=""
+        /></span>
+      </section>
+      <section class="identification-form-section">
+        <h1 class="title">Identificação</h1>
+        <form class="form" action="delivery.html">
+          <div class="input-group">
+            <div class="field">
+              <label for="input-name" class="label">Nome</label>
+              <input
+                type="text"
+                name="input-name"
+                id="input-name"
+                class="input"
+                placeholder="Digite seu nome"
+                required
+              />
+            </div>
+            <div class="field">
+              <label for="input-surname" class="label">Sobrenome</label>
+              <input
+                type="text"
+                name="input-surname"
+                id="input-surname"
+                class="input"
+                placeholder="Digite seu sobrenome"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="input-group">
+            <div class="field">
+              <label for="input-phone" class="label">Telefone</label>
+              <input
+                type="tel"
+                name="input-phone"
+                id="input-phone"
+                class="input"
+                placeholder="42999999999"
+                required
+              />
+            </div>
+            <div class="field">
+              <label for="input-email" class="label">Email</label>
+              <input
+                type="email"
+                name="input-email"
+                id="input-email"
+                class="input"
+                placeholder="seuemail@gamail.com"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="input-group">
+            <div class="field">
+              <label for="input-cpf" class="label">CPF</label>
+              <input
+                type="number"
+                name="input-cpf"
+                id="input-cpf"
+                class="input"
+                placeholder="99999999999"
+                required
+              />
+            </div>
+            <div class="field">
+              <label for="input-birth-date" class="label"
+                >Data de nascimento</label
+              >
+              <input
+                type="date"
+                name="input-birth-date"
+                id="input-birth-date"
+                class="input"
+                required
+              />
+            </div>
+          </div>
+          <div class="buttons">
+            <a href="index.html" class="cancel"> Cancelar </a>
+            <button type="submit" class="continue">Continuar</button>
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>
