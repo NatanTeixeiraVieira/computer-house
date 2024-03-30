@@ -1,4 +1,49 @@
-.home .main {
+.home .main #carousel {
+  background-color: #bcbcbc;
+  padding-top: 1rem;
+}
+
+.home .main #carousel #changing-title {
+  font-weight: 700;
+  text-align: center;
+}
+
+.home .main #carousel .product-image {
+  height: 16rem;
+  border-radius: 6px;
+}
+
+.home .main #carousel .image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  gap: 0.5rem;
+  color: #222;
+  text-decoration: none;
+}
+
+.home .main #carousel .image-container h2 {
+  width: 20rem;
+}
+
+.home .main #carousel .product-name {
+  font-size: 1.5rem;
+}
+
+.home .main #carousel .previous-price {
+  color: #ee1212;
+  text-decoration: line-through;
+}
+
+.home .main #carousel .current-price {
+  color: #25d725;
+  font-size: 1.5rem;
+}
+
+.home .main .products {
+  background-color: #eee;
   padding: 2rem;
 }
 
@@ -14,6 +59,9 @@
   list-style: none;
   cursor: pointer;
   transition: box-shadow 0.4s ease 0s;
+  background-color: #fefefe;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px #dcdcdc;
 }
 
 .home .main .products-grid .product .link-buy-product {
@@ -22,7 +70,7 @@
 }
 
 .home .main .products-grid .product:hover {
-  box-shadow: rgba(0, 0, 0, 0.2) 2px -2px 4px;
+  box-shadow: 3px 3px 6px #bcbcbc;
 }
 
 .home .main .products-grid .product .favorite-container {
