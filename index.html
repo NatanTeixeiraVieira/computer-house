@@ -1,541 +1,349 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Computer house</title>
-    <link rel="stylesheet" href="/assets/css/global-styles.css" />
-    <link rel="stylesheet" href="assets/css/index.css" />
-    <link rel="stylesheet" href="/assets/css/header.css" />
-    <link rel="stylesheet" href="/assets/css/footer.css" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
-      integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
-      crossorigin="anonymous"
-    />
-  </head>
-  <body class="home">
-    <header class="header">
-      <a href="/index.html">
-        <img
-          src="/assets/images/computer-house-logo.png"
-          alt="Logo da Computer House"
-          class="logo"
-        />
-      </a>
-      <nav></nav>
-      <nav>
-        <ul class="nav-list">
-          <li><a href="#">Login</a></li>
-          <li><a href="#">Cadastrar-se</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main class="main">
-      <section id="carousel" class="d-flex">
-        <div class="container align-self-center">
-          <div class="row">
-            <div class="col-md-12 capa">
-              <div
-                id="carousel-products-promotion"
-                class="carousel slide"
-                data-ride="carousel"
-              >
-                <h2 id="changing-title">Produtos com descontos incríveis</h2>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <a href="identification.html" class="image-container">
-                      <img
-                        src="/assets/images/black_keyboard.jpg"
-                        alt=""
-                        class="product-image"
-                      />
-                      <span class="product-name">Teclado preto</span>
-                      <span>
-                        <strong class="previous-price">R$520,00</strong>
-                      </span>
-                      <span>
-                        <strong class="current-price">R$412,00</strong>
-                      </span>
-                    </a>
-                  </div>
-                  <div class="carousel-item">
-                    <a href="identification.html" class="image-container">
-                      <img
-                        src="/assets/images/geforce-gtx-1080.jpg"
-                        alt=""
-                        class="product-image"
-                      />
-                      <span class="product-name"
-                        >Placa de vídeo Geforce GTX 1080 TI</span
-                      >
-                      <span>
-                        <strong class="previous-price">R$2799,00</strong>
-                      </span>
-                      <span>
-                        <strong class="current-price">R$2676,00</strong>
-                      </span>
-                    </a>
-                  </div>
-                  <div class="carousel-item">
-                    <a href="identification.html" class="image-container">
-                      <img
-                        src="/assets/images/gabinete-hayom.jpg"
-                        alt=""
-                        class="product-image"
-                      />
-                      <span class="product-name">Gabinete Hayom</span>
-                      <span>
-                        <strong class="previous-price">R$990,00</strong>
-                      </span>
-                      <span>
-                        <strong class="current-price">R$780,00</strong>
-                      </span>
-                    </a>
-                  </div>
-                  <div class="carousel-item">
-                    <a href="identification.html" class="image-container">
-                      <img
-                        src="/assets/images/monitor-lg-60hz.jpg"
-                        alt=""
-                        class="product-image"
-                      />
-                      <span class="product-name">Monitor LG 60hz</span>
-                      <span>
-                        <strong class="previous-price">R$1399,00</strong>
-                      </span>
-                      <span>
-                        <strong class="current-price">R$1100,00</strong>
-                      </span>
-                    </a>
-                  </div>
-                </div>
-                <a
-                  href="#carousel-products-promotion"
-                  class="carousel-control-prev"
-                  data-slide="prev"
-                >
-                  <i class="fas fa-angle-left fa-3x text-dark"></i>
-                </a>
-                <a
-                  href="#carousel-products-promotion"
-                  class="carousel-control-next"
-                  data-slide="next"
-                >
-                  <i class="fas fa-angle-right fa-3x text-dark"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="products">
-        <ul class="products-grid">
-          <li class="product">
-            <a href="identification.html" class="link-buy-product">
-              <div class="produt-image-container">
-                <img
-                  src="/assets/images/geforce-gtx-1080.jpg"
-                  alt=""
-                  class="product-image"
-                />
-                <div class="favorite-container">
-                  <img
-                    src="/assets/images/favorite.png"
-                    alt="Coração"
-                    class="favorite-button"
-                  />
-                </div>
-              </div>
-              <div class="product-description">
-                <span>Placa de vídeo geforce gtx 1080 TI</span>
-                <strong>R$2676,00</strong>
-                <div class="rating">
-                  <img
-                    src="/assets/images/hollow-star.png"
-                    alt="Estrela"
-                    class="product-stars-icon"
-                  />
-                  <span>3</span>
-                </div>
-              </div>
-            </a>
-          </li>
 
-          <li class="product">
-            <a href="identification.html" class="link-buy-product">
-              <div class="produt-image-container">
-                <img
-                  src="/assets/images/gabinete-hayom.jpg"
-                  alt=""
-                  class="product-image"
-                />
-                <div class="favorite-container">
-                  <img
-                    src="/assets/images/favorite.png"
-                    alt="Coração"
-                    class="favorite-button"
-                  />
-                </div>
-              </div>
-              <div class="product-description">
-                <span>Gabinete Hayom</span>
-                <strong>R$780,00</strong>
-                <div class="rating">
-                  <img
-                    src="/assets/images/hollow-star.png"
-                    alt="Estrela"
-                    class="product-stars-icon"
-                  />
-                  <span>4</span>
-                </div>
-              </div>
-            </a>
-          </li>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Computer house</title>
+	<link rel="stylesheet" href="/assets/css/global-styles.css" />
+	<link rel="stylesheet" href="assets/css/index.css" />
+	<link rel="stylesheet" href="/assets/css/header.css" />
+	<link rel="stylesheet" href="/assets/css/footer.css" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+		integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+		integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous" />
+</head>
 
-          <li class="product">
-            <a href="identification.html" class="link-buy-product">
-              <div class="produt-image-container">
-                <img
-                  src="/assets/images/monitor-lg-60hz.jpg"
-                  alt=""
-                  class="product-image"
-                />
-                <div class="favorite-container">
-                  <img
-                    src="/assets/images/favorite.png"
-                    alt="Coração"
-                    class="favorite-button"
-                  />
-                </div>
-              </div>
-              <div class="product-description">
-                <span>Monitor LG 60hz</span>
-                <strong>R$1100,00</strong>
-                <div class="rating">
-                  <img
-                    src="/assets/images/hollow-star.png"
-                    alt="Estrela"
-                    class="product-stars-icon"
-                  />
-                  <span>5</span>
-                </div>
-              </div>
-            </a>
-          </li>
+<body class="home">
+	<header>
+		<nav class="nav-bar">
+			<div class="logo">
+				<h1>Computer <span class="span">House</span></h1>
+			</div>
+			<nav class="nav-list">
+				<ul>
+					<li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+					<li class="nav-item"><a href="#" class="nav-link">Fale conosco</a></li>
+					<li class="nav-item"><a href="#" class="nav-link">Carrinho</a></li>
+				</ul>
+			</nav>
+			<div class="login-button">
+				<button><a href="#">Entrar</a></button>
+			</div>
+		</nav>
+		<main class="main">
+			<section id="carousel" class="d-flex">
+				<div class="container align-self-center">
+					<div class="row">
+						<div class="col-md-12 capa">
+							<div id="carousel-products-promotion" class="carousel slide" data-ride="carousel">
+								<h2 id="changing-title">Produtos com descontos incríveis</h2>
+								<div class="carousel-inner">
+									<div class="carousel-item active">
+										<a href="identification.html" class="image-container">
+											<img src="/assets/images/black_keyboard.jpg" alt="" class="product-image" />
+											<span class="product-name">Teclado preto</span>
+											<span>
+												<strong class="previous-price">R$520,00</strong>
+											</span>
+											<span>
+												<strong class="current-price">R$412,00</strong>
+											</span>
+										</a>
+									</div>
+									<div class="carousel-item">
+										<a href="identification.html" class="image-container">
+											<img src="/assets/images/geforce-gtx-1080.jpg" alt="" class="product-image" />
+											<span class="product-name">Placa de vídeo Geforce GTX 1080 TI</span>
+											<span>
+												<strong class="previous-price">R$2799,00</strong>
+											</span>
+											<span>
+												<strong class="current-price">R$2676,00</strong>
+											</span>
+										</a>
+									</div>
+									<div class="carousel-item">
+										<a href="identification.html" class="image-container">
+											<img src="/assets/images/gabinete-hayom.jpg" alt="" class="product-image" />
+											<span class="product-name">Gabinete Hayom</span>
+											<span>
+												<strong class="previous-price">R$990,00</strong>
+											</span>
+											<span>
+												<strong class="current-price">R$780,00</strong>
+											</span>
+										</a>
+									</div>
+									<div class="carousel-item">
+										<a href="identification.html" class="image-container">
+											<img src="/assets/images/monitor-lg-60hz.jpg" alt="" class="product-image" />
+											<span class="product-name">Monitor LG 60hz</span>
+											<span>
+												<strong class="previous-price">R$1399,00</strong>
+											</span>
+											<span>
+												<strong class="current-price">R$1100,00</strong>
+											</span>
+										</a>
+									</div>
+								</div>
+								<a href="#carousel-products-promotion" class="carousel-control-prev" data-slide="prev">
+									<i class="fas fa-angle-left fa-3x text-dark"></i>
+								</a>
+								<a href="#carousel-products-promotion" class="carousel-control-next" data-slide="next">
+									<i class="fas fa-angle-right fa-3x text-dark"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="products">
+				<ul class="products-grid">
+					<li class="product">
+						<a href="identification.html" class="link-buy-product">
+							<div class="produt-image-container">
+								<img src="/assets/images/geforce-gtx-1080.jpg" alt="" class="product-image" />
+								<div class="favorite-container">
+									<img src="/assets/images/favorite.png" alt="Coração" class="favorite-button" />
+								</div>
+							</div>
+							<div class="product-description">
+								<span>Placa de vídeo geforce gtx 1080 TI</span>
+								<strong>R$2676,00</strong>
+								<div class="rating">
+									<img src="/assets/images/hollow-star.png" alt="Estrela" class="product-stars-icon" />
+									<span>3</span>
+								</div>
+							</div>
+						</a>
+					</li>
 
-          <li class="product">
-            <a href="identification.html" class="link-buy-product">
-              <div class="produt-image-container">
-                <img
-                  src="/assets/images/motitor-gibabyte-165hz.jpg"
-                  alt=""
-                  class="product-image"
-                />
-                <div class="favorite-container">
-                  <img
-                    src="/assets/images/favorite.png"
-                    alt="Coração"
-                    class="favorite-button"
-                  />
-                </div>
-              </div>
-              <div class="product-description">
-                <span>Monitor Gibabyte 165hz</span>
-                <strong>R$1500,00</strong>
-                <div class="rating">
-                  <img
-                    src="/assets/images/hollow-star.png"
-                    alt="Estrela"
-                    class="product-stars-icon"
-                  />
-                  <span>5</span>
-                </div>
-              </div>
-            </a>
-          </li>
+					<li class="product">
+						<a href="identification.html" class="link-buy-product">
+							<div class="produt-image-container">
+								<img src="/assets/images/gabinete-hayom.jpg" alt="" class="product-image" />
+								<div class="favorite-container">
+									<img src="/assets/images/favorite.png" alt="Coração" class="favorite-button" />
+								</div>
+							</div>
+							<div class="product-description">
+								<span>Gabinete Hayom</span>
+								<strong>R$780,00</strong>
+								<div class="rating">
+									<img src="/assets/images/hollow-star.png" alt="Estrela" class="product-stars-icon" />
+									<span>4</span>
+								</div>
+							</div>
+						</a>
+					</li>
 
-          <li class="product">
-            <a href="identification.html" class="link-buy-product">
-              <div class="produt-image-container">
-                <img
-                  src="/assets/images/laptop.jpg"
-                  alt=""
-                  class="product-image"
-                />
-                <div class="favorite-container">
-                  <img
-                    src="/assets/images/favorite.png"
-                    alt="Coração"
-                    class="favorite-button"
-                  />
-                </div>
-              </div>
-              <div class="product-description">
-                <span>Apple notebook MacBook Air</span>
-                <strong>R$6999,99</strong>
-                <div class="rating">
-                  <img
-                    src="/assets/images/hollow-star.png"
-                    alt="Estrela"
-                    class="product-stars-icon"
-                  />
-                  <span>5</span>
-                </div>
-              </div>
-            </a>
-          </li>
+					<li class="product">
+						<a href="identification.html" class="link-buy-product">
+							<div class="produt-image-container">
+								<img src="/assets/images/monitor-lg-60hz.jpg" alt="" class="product-image" />
+								<div class="favorite-container">
+									<img src="/assets/images/favorite.png" alt="Coração" class="favorite-button" />
+								</div>
+							</div>
+							<div class="product-description">
+								<span>Monitor LG 60hz</span>
+								<strong>R$1100,00</strong>
+								<div class="rating">
+									<img src="/assets/images/hollow-star.png" alt="Estrela" class="product-stars-icon" />
+									<span>5</span>
+								</div>
+							</div>
+						</a>
+					</li>
 
-          <li class="product">
-            <a href="identification.html" class="link-buy-product">
-              <div class="produt-image-container">
-                <img
-                  src="/assets/images/monitor-75hz.jpg"
-                  alt=""
-                  class="product-image"
-                />
-                <div class="favorite-container">
-                  <img
-                    src="/assets/images/favorite.png"
-                    alt="Coração"
-                    class="favorite-button"
-                  />
-                </div>
-              </div>
-              <div class="product-description">
-                <span>Monitor 75hz</span>
-                <strong>R$1200,00</strong>
-                <div class="rating">
-                  <img
-                    src="/assets/images/hollow-star.png"
-                    alt="Estrela"
-                    class="product-stars-icon"
-                  />
-                  <span>2</span>
-                </div>
-              </div>
-            </a>
-          </li>
+					<li class="product">
+						<a href="identification.html" class="link-buy-product">
+							<div class="produt-image-container">
+								<img src="/assets/images/motitor-gibabyte-165hz.jpg" alt="" class="product-image" />
+								<div class="favorite-container">
+									<img src="/assets/images/favorite.png" alt="Coração" class="favorite-button" />
+								</div>
+							</div>
+							<div class="product-description">
+								<span>Monitor Gibabyte 165hz</span>
+								<strong>R$1500,00</strong>
+								<div class="rating">
+									<img src="/assets/images/hollow-star.png" alt="Estrela" class="product-stars-icon" />
+									<span>5</span>
+								</div>
+							</div>
+						</a>
+					</li>
 
-          <li class="product">
-            <a href="identification.html" class="link-buy-product">
-              <div class="produt-image-container">
-                <img
-                  src="/assets/images/monitor-dell-90hz.jpg"
-                  alt=""
-                  class="product-image"
-                />
-                <div class="favorite-container">
-                  <img
-                    src="/assets/images/favorite.png"
-                    alt="Coração"
-                    class="favorite-button"
-                  />
-                </div>
-              </div>
-              <div class="product-description">
-                <span>Monitor 90hz</span>
-                <strong>$1600,00</strong>
-                <div class="rating">
-                  <img
-                    src="/assets/images/hollow-star.png"
-                    alt="Estrela"
-                    class="product-stars-icon"
-                  />
-                  <span>3</span>
-                </div>
-              </div>
-            </a>
-          </li>
+					<li class="product">
+						<a href="identification.html" class="link-buy-product">
+							<div class="produt-image-container">
+								<img src="/assets/images/laptop.jpg" alt="" class="product-image" />
+								<div class="favorite-container">
+									<img src="/assets/images/favorite.png" alt="Coração" class="favorite-button" />
+								</div>
+							</div>
+							<div class="product-description">
+								<span>Apple notebook MacBook Air</span>
+								<strong>R$6999,99</strong>
+								<div class="rating">
+									<img src="/assets/images/hollow-star.png" alt="Estrela" class="product-stars-icon" />
+									<span>5</span>
+								</div>
+							</div>
+						</a>
+					</li>
 
-          <li class="product">
-            <a href="identification.html" class="link-buy-product">
-              <div class="produt-image-container">
-                <img
-                  src="/assets/images/gabinete-big.jpg"
-                  alt=""
-                  class="product-image"
-                />
-                <div class="favorite-container">
-                  <img
-                    src="/assets/images/favorite.png"
-                    alt="Coração"
-                    class="favorite-button"
-                  />
-                </div>
-              </div>
-              <div class="product-description">
-                <span>Gabinete grande</span>
-                <strong>R$999,99</strong>
-                <div class="rating">
-                  <img
-                    src="/assets/images/hollow-star.png"
-                    alt="Estrela"
-                    class="product-stars-icon"
-                  />
-                  <span>4</span>
-                </div>
-              </div>
-            </a>
-          </li>
+					<li class="product">
+						<a href="identification.html" class="link-buy-product">
+							<div class="produt-image-container">
+								<img src="/assets/images/monitor-75hz.jpg" alt="" class="product-image" />
+								<div class="favorite-container">
+									<img src="/assets/images/favorite.png" alt="Coração" class="favorite-button" />
+								</div>
+							</div>
+							<div class="product-description">
+								<span>Monitor 75hz</span>
+								<strong>R$1200,00</strong>
+								<div class="rating">
+									<img src="/assets/images/hollow-star.png" alt="Estrela" class="product-stars-icon" />
+									<span>2</span>
+								</div>
+							</div>
+						</a>
+					</li>
 
-          <li class="product">
-            <a href="identification.html" class="link-buy-product">
-              <div class="produt-image-container">
-                <img
-                  src="/assets/images/monitor-244hz.jpg"
-                  alt=""
-                  class="product-image"
-                />
-                <div class="favorite-container">
-                  <img
-                    src="/assets/images/favorite.png"
-                    alt="Coração"
-                    class="favorite-button"
-                  />
-                </div>
-              </div>
-              <div class="product-description">
-                <span>Monitor 244hz</span>
-                <strong>R$2350,00</strong>
-                <div class="rating">
-                  <img
-                    src="/assets/images/hollow-star.png"
-                    alt="Estrela"
-                    class="product-stars-icon"
-                  />
-                  <span>5</span>
-                </div>
-              </div>
-            </a>
-          </li>
+					<li class="product">
+						<a href="identification.html" class="link-buy-product">
+							<div class="produt-image-container">
+								<img src="/assets/images/monitor-dell-90hz.jpg" alt="" class="product-image" />
+								<div class="favorite-container">
+									<img src="/assets/images/favorite.png" alt="Coração" class="favorite-button" />
+								</div>
+							</div>
+							<div class="product-description">
+								<span>Monitor 90hz</span>
+								<strong>$1600,00</strong>
+								<div class="rating">
+									<img src="/assets/images/hollow-star.png" alt="Estrela" class="product-stars-icon" />
+									<span>3</span>
+								</div>
+							</div>
+						</a>
+					</li>
 
-          <li class="product">
-            <a href="identification.html" class="link-buy-product">
-              <div class="produt-image-container">
-                <img
-                  src="/assets/images/processor-i9.png"
-                  alt=""
-                  class="product-image"
-                />
-                <div class="favorite-container">
-                  <img
-                    src="/assets/images/favorite.png"
-                    alt="Coração"
-                    class="favorite-button"
-                  />
-                </div>
-              </div>
-              <div class="product-description">
-                <span>Processador intel core i9 10ª geração</span>
-                <strong>R$2200,00</strong>
-                <div class="rating">
-                  <img
-                    src="/assets/images/hollow-star.png"
-                    alt="Estrela"
-                    class="product-stars-icon"
-                  />
-                  <span>3</span>
-                </div>
-              </div>
-            </a>
-          </li>
+					<li class="product">
+						<a href="identification.html" class="link-buy-product">
+							<div class="produt-image-container">
+								<img src="/assets/images/gabinete-big.jpg" alt="" class="product-image" />
+								<div class="favorite-container">
+									<img src="/assets/images/favorite.png" alt="Coração" class="favorite-button" />
+								</div>
+							</div>
+							<div class="product-description">
+								<span>Gabinete grande</span>
+								<strong>R$999,99</strong>
+								<div class="rating">
+									<img src="/assets/images/hollow-star.png" alt="Estrela" class="product-stars-icon" />
+									<span>4</span>
+								</div>
+							</div>
+						</a>
+					</li>
 
-          <li class="product">
-            <a href="identification.html" class="link-buy-product">
-              <div class="produt-image-container">
-                <img
-                  src="/assets/images/white_keyboard.jpg"
-                  alt=""
-                  class="product-image"
-                />
-                <div class="favorite-container">
-                  <img
-                    src="/assets/images/favorite.png"
-                    alt="Coração"
-                    class="favorite-button"
-                  />
-                </div>
-              </div>
-              <div class="product-description">
-                <span>Teclado branco</span>
-                <strong>R$375,00</strong>
-                <div class="rating">
-                  <img
-                    src="/assets/images/hollow-star.png"
-                    alt="Estrela"
-                    class="product-stars-icon"
-                  />
-                  <span>4</span>
-                </div>
-              </div>
-            </a>
-          </li>
+					<li class="product">
+						<a href="identification.html" class="link-buy-product">
+							<div class="produt-image-container">
+								<img src="/assets/images/monitor-244hz.jpg" alt="" class="product-image" />
+								<div class="favorite-container">
+									<img src="/assets/images/favorite.png" alt="Coração" class="favorite-button" />
+								</div>
+							</div>
+							<div class="product-description">
+								<span>Monitor 244hz</span>
+								<strong>R$2350,00</strong>
+								<div class="rating">
+									<img src="/assets/images/hollow-star.png" alt="Estrela" class="product-stars-icon" />
+									<span>5</span>
+								</div>
+							</div>
+						</a>
+					</li>
 
-          <li class="product">
-            <a href="identification.html" class="link-buy-product">
-              <div class="produt-image-container">
-                <img
-                  src="/assets/images/black_keyboard.jpg"
-                  alt=""
-                  class="product-image"
-                />
-                <div class="favorite-container">
-                  <img
-                    src="/assets/images/favorite.png"
-                    alt="Coração"
-                    class="favorite-button"
-                  />
-                </div>
-              </div>
-              <div class="product-description">
-                <span>Teclado preto</span>
-                <strong>R$412,00</strong>
-                <div class="rating">
-                  <img
-                    src="/assets/images/hollow-star.png"
-                    alt="Estrela"
-                    class="product-stars-icon"
-                  />
-                  <span>5</span>
-                </div>
-              </div>
-            </a>
-          </li>
-        </ul>
-      </section>
-    </main>
-    <footer class="footer">
-      <a href="/index.html">
-        <img
-          src="/assets/images/computer-house-logo.png"
-          alt="Logo da Computer House"
-          class="logo"
-        />
-      </a>
-    </footer>
-  </body>
-  <script src="scripts/index.js"></script>
-  <script
-    src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"
-  ></script>
-  <script
-    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-    crossorigin="anonymous"
-  ></script>
-  <script
-    src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-    crossorigin="anonymous"
-  ></script>
+					<li class="product">
+						<a href="identification.html" class="link-buy-product">
+							<div class="produt-image-container">
+								<img src="/assets/images/processor-i9.png" alt="" class="product-image" />
+								<div class="favorite-container">
+									<img src="/assets/images/favorite.png" alt="Coração" class="favorite-button" />
+								</div>
+							</div>
+							<div class="product-description">
+								<span>Processador intel core i9 10ª geração</span>
+								<strong>R$2200,00</strong>
+								<div class="rating">
+									<img src="/assets/images/hollow-star.png" alt="Estrela" class="product-stars-icon" />
+									<span>3</span>
+								</div>
+							</div>
+						</a>
+					</li>
+
+					<li class="product">
+						<a href="identification.html" class="link-buy-product">
+							<div class="produt-image-container">
+								<img src="/assets/images/white_keyboard.jpg" alt="" class="product-image" />
+								<div class="favorite-container">
+									<img src="/assets/images/favorite.png" alt="Coração" class="favorite-button" />
+								</div>
+							</div>
+							<div class="product-description">
+								<span>Teclado branco</span>
+								<strong>R$375,00</strong>
+								<div class="rating">
+									<img src="/assets/images/hollow-star.png" alt="Estrela" class="product-stars-icon" />
+									<span>4</span>
+								</div>
+							</div>
+						</a>
+					</li>
+
+					<li class="product">
+						<a href="identification.html" class="link-buy-product">
+							<div class="produt-image-container">
+								<img src="/assets/images/black_keyboard.jpg" alt="" class="product-image" />
+								<div class="favorite-container">
+									<img src="/assets/images/favorite.png" alt="Coração" class="favorite-button" />
+								</div>
+							</div>
+							<div class="product-description">
+								<span>Teclado preto</span>
+								<strong>R$412,00</strong>
+								<div class="rating">
+									<img src="/assets/images/hollow-star.png" alt="Estrela" class="product-stars-icon" />
+									<span>5</span>
+								</div>
+							</div>
+						</a>
+					</li>
+				</ul>
+			</section>
+		</main>
+		<footer class="footer">
+			<a href="/index.html">
+				<img src="/assets/images/computer-house-logo.png" alt="Logo da Computer House" class="logo" />
+			</a>
+		</footer>
+</body>
+<script src="scripts/index.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+	integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+	integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+	integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
 </html>
