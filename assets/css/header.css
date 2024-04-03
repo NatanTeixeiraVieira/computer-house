@@ -1,7 +1,5 @@
 header {
   background-color: #24252a;
-  min-height: 6rem;
-  display: flex;
 }
 
 .nav-bar {
@@ -44,9 +42,6 @@ h1 {
 
 .nav-list ul li a:hover {
   color: #ea1d1d;
-}
-
-.nav-item {
 }
 
 .nav-link {
