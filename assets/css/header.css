@@ -1,9 +1,12 @@
 header {
   background-color: #24252a;
+  min-height: 6rem;
+  display: flex;
 }
 
 .nav-bar {
   display: flex;
+  flex: 1;
   justify-content: space-between;
   align-items: center;
   padding: 1.5rem 6rem;
@@ -44,7 +47,6 @@ h1 {
 }
 
 .nav-item {
-  margin: 0 15px;
 }
 
 .nav-link {
@@ -70,11 +72,7 @@ h1 {
   .nav-bar {
     padding: 1rem;
     flex-direction: column;
-    gap: 2rem;
-  }
-
-  .nav-link {
-    padding: 0;
+    gap: 1.5rem;
   }
 
   .login-button button {
